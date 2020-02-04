@@ -9,16 +9,11 @@ Information Systems. ACM, 2016, p. 61.
 
 """
 
-
-import requests
-from matplotlib import pyplot as plt
 import numpy as np
 from sklearn.metrics import mean_absolute_error, median_absolute_error
 from sklearn.preprocessing import OneHotEncoder
 from datetime import datetime
-from sklearn import linear_model
-from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
-from sklearn.model_selection import ParameterGrid
+from sklearn.ensemble import GradientBoostingRegressor
 from collections import defaultdict
 from random import shuffle
 import sys
